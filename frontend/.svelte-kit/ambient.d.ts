@@ -34,9 +34,14 @@ declare module '$env/static/private' {
 	export const HYPRLAND_CMD: string;
 	export const npm_config_cache: string;
 	export const LESS: string;
+	export const HISTCONTROL: string;
+	export const TERM_PROGRAM_VERSION: string;
 	export const XDG_BACKEND: string;
 	export const CLUTTER_BACKEND: string;
+	export const TMUX: string;
 	export const QT_WAYLAND_DISABLE_WINDOWDECORATION: string;
+	export const HISTSIZE: string;
+	export const HOSTNAME: string;
 	export const _P9K_TTY: string;
 	export const NODE: string;
 	export const P9K_TTY: string;
@@ -51,8 +56,8 @@ declare module '$env/static/private' {
 	export const EDITOR: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
-	export const LOGNAME: string;
 	export const XDG_SESSION_DESKTOP: string;
+	export const LOGNAME: string;
 	export const QT_QPA_PLATFORMTHEME: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_config_init_module: string;
@@ -62,8 +67,8 @@ declare module '$env/static/private' {
 	export const HOME: string;
 	export const USERNAME: string;
 	export const LANG: string;
-	export const LS_COLORS: string;
 	export const _JAVA_AWT_WM_NONREPARENTING: string;
+	export const LS_COLORS: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
 	export const WAYLAND_DISPLAY: string;
@@ -83,6 +88,7 @@ declare module '$env/static/private' {
 	export const npm_config_prefix: string;
 	export const LESSOPEN: string;
 	export const USER: string;
+	export const TMUX_PANE: string;
 	export const HYPRLAND_INSTANCE_SIGNATURE: string;
 	export const DISPLAY: string;
 	export const npm_lifecycle_event: string;
@@ -113,12 +119,14 @@ declare module '$env/static/private' {
 	export const npm_config_python: string;
 	export const npm_config_global_prefix: string;
 	export const npm_config_update_notifier: string;
+	export const MAIL: string;
 	export const QT_SCALE_FACTOR: string;
 	export const KITTY_INSTALLATION_DIR: string;
 	export const npm_node_execpath: string;
 	export const npm_config_engine_strict: string;
 	export const OLDPWD: string;
 	export const HYPRCURSOR_SIZE: string;
+	export const TERM_PROGRAM: string;
 	export const NODE_ENV: string;
 }
 
@@ -159,9 +167,14 @@ declare module '$env/dynamic/private' {
 		HYPRLAND_CMD: string;
 		npm_config_cache: string;
 		LESS: string;
+		HISTCONTROL: string;
+		TERM_PROGRAM_VERSION: string;
 		XDG_BACKEND: string;
 		CLUTTER_BACKEND: string;
+		TMUX: string;
 		QT_WAYLAND_DISABLE_WINDOWDECORATION: string;
+		HISTSIZE: string;
+		HOSTNAME: string;
 		_P9K_TTY: string;
 		NODE: string;
 		P9K_TTY: string;
@@ -176,8 +189,8 @@ declare module '$env/dynamic/private' {
 		EDITOR: string;
 		XDG_SEAT: string;
 		PWD: string;
-		LOGNAME: string;
 		XDG_SESSION_DESKTOP: string;
+		LOGNAME: string;
 		QT_QPA_PLATFORMTHEME: string;
 		XDG_SESSION_TYPE: string;
 		npm_config_init_module: string;
@@ -187,8 +200,8 @@ declare module '$env/dynamic/private' {
 		HOME: string;
 		USERNAME: string;
 		LANG: string;
-		LS_COLORS: string;
 		_JAVA_AWT_WM_NONREPARENTING: string;
+		LS_COLORS: string;
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
 		WAYLAND_DISPLAY: string;
@@ -208,6 +221,7 @@ declare module '$env/dynamic/private' {
 		npm_config_prefix: string;
 		LESSOPEN: string;
 		USER: string;
+		TMUX_PANE: string;
 		HYPRLAND_INSTANCE_SIGNATURE: string;
 		DISPLAY: string;
 		npm_lifecycle_event: string;
@@ -238,12 +252,14 @@ declare module '$env/dynamic/private' {
 		npm_config_python: string;
 		npm_config_global_prefix: string;
 		npm_config_update_notifier: string;
+		MAIL: string;
 		QT_SCALE_FACTOR: string;
 		KITTY_INSTALLATION_DIR: string;
 		npm_node_execpath: string;
 		npm_config_engine_strict: string;
 		OLDPWD: string;
 		HYPRCURSOR_SIZE: string;
+		TERM_PROGRAM: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
